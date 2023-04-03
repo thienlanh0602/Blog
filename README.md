@@ -1,2 +1,2 @@
 # blog for me - Mern Stack 
-@coppyright @Limbo
+@coppyright LimboDev
