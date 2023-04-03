@@ -1,2 +1,2 @@
-# blog for me - Mern Stack 
+# blog for me - Mern Stack - thienlanh.org
 @coppyright LimboDev
