@@ -4,6 +4,7 @@ import { styled } from '@mui/material/styles'
 import { AppBar, Box, Toolbar } from "@mui/material"
 import ScrollToTop from "./scroll/scrolltoTop"
 import LogoAvata from './logo/logo';
+
 import Elements from './listButtonItem/navElements';
 import configData from './listButtonItem/config'
 
@@ -21,11 +22,11 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 
     [theme.breakpoints.down('lg')]: {
         minHeight: HEADER_MOBILE,
-        padding: theme.spacing(0, 5),
+        padding: theme.spacing(0, 3),
     },
     [theme.breakpoints.up('lg')]: {
         minHeight: HEADER_MOBILE,
-        padding: theme.spacing(0, 10),
+        padding: theme.spacing(0, 6),
     },
 }));
 
