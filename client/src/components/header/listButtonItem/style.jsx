@@ -20,5 +20,6 @@ export const ListButtonStyle = styled(ListItemButton)(({ theme }) => ({
     },
     [theme.breakpoints.down('sm')]: {
         paddingLeft: 10,
+        fontSize:15
     },
 }))
